@@ -1,11 +1,19 @@
 # ComfyUI-LG_Node
 
-**更新日志：**
+更新日志：
+- 2024-12-16 
+- 1.CanvasMixer新增了颜色实时调整，遮罩编辑，移除背景，移除物体等功能，为前处理节省了大量时间
+- 2.对传递数据方式进行了整体的优化，对于超高分辨率图片也能够正常传递
+- 3.CachePreviewBridge解决串图问题
+- 4.FastCanvas新增canvas_data用于输出多个遮罩，并新增锁定功能防止误触
+- 5.CanvasMixer右键菜单进行了整理
+
 - 2024-11-27 
 - 1.新增FastCanvas节点，用于快速合并多个图像
 - 2.修复了CachePreviewBridge节点缓存图像时，无法正确输出的问题,并且增加了复制粘贴导入功能
 - 3.修复CanvasMixer节点输出黑图问题，更新为中文版
 # 
+
 ![Image](./assets/all_nodes.png)
 
 
@@ -13,6 +21,10 @@
 
 
 ## Nodes
+### CanvasMixer节点
+![Image](./assets/functions.png)
+**CanvasMixer节点新增了颜色实时调整，遮罩编辑，移除背景，移除物体等功能，为前处理节省了大量时间**
+
 ### FastCanvas节点(新增)
 ![Image](./assets/FastCanvas.png)
 
@@ -151,11 +163,14 @@
 ## 计划
 - 2024.11.27 ~~制作基于ComfyUI框架的画布混合节点，实现在界面内进行画布混合以及实时调整~~ 
 
+# 赞助商
+- 感谢 [AIXkkk](https://github.com/AIXkkk) 的大力支持，让这个最新版本能够为大家所用
+
 # 联系我
 如果你对这个节点感兴趣，请通过以下方式获取
 - 微信：wenrulaogou2033
 - 淘宝店铺ID：581345365
-  卖家: cx1242423036
+- 卖家: cx1242423036
 
-一杯奶茶钱，即可获取该节点包，并且后续更新不再额外收费！
+通过以上方式即可获取该节点包，并且后续更新不再额外收费！
 工作流可以不必复杂！
